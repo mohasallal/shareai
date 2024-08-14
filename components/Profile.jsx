@@ -1,7 +1,11 @@
-const Profile = () => {
-  return (
-    <div>Profile</div>
-  )
-}
+import PromptCard from "./PromptCard";
 
-export default Profile
+const Profile = ({ name, desc, data, handleEdit, handleDelete }) => {
+  return (
+    <section className="w-full">
+      <h1 >{name} Profile</h1>
+    </section>
+  );
+};
+
+export default Profile;
